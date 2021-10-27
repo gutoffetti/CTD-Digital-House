@@ -1,0 +1,39 @@
+.main-title {
+    color:darkblue;
+    font-size: 42px;
+
+}
+
+.main-subtitle {
+
+    color: #8b0000;
+
+}
+
+.post {
+
+    background-color: #91d7ee;
+
+}
+
+.post h1 {
+
+    color: #c73815a1;
+
+}
+
+.post a {
+
+    color: #4b0082;
+    background-color: salmon;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+ul, ol {
+
+    background-color: #96a2e6;
+    padding: 15px;
+
+}
