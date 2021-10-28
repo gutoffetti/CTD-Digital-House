@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+body {
+
+    margin: 0;
+    background-color: #726d6d;
+    font-family: 'Roboto', sans-serif;
+
+}
+header {
+    border-radius: 100px;
+    height:40px;
+    background-color: #f1eaea;
+    color: #7a1b03;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    top: -15px;
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+}
+
+h2 {
+    color: #7a1b03;
+}
+
+.nota {
+    color: #000000;
+    border-radius: 15px;
+    width: 130px; 
+    background-color: #94a533;
+    padding: 4pt;
+    padding-inline-start: 50%;
+    padding-inline: 2.5%;
+    position: relative;
+    top: -63px;
+
+}
+
+.material-icons-outlined, .material-icons {
+
+    font-size: 40px;
+    position: relative;
+    top: -120px;
+
+}
+.movie-position {
+    float: inline-start;
+    padding-inline-start: 8%; 
+    margin-top: -10px;
+    margin-right: -900px;
+}
+
+.text-position {
+    margin-top: -120px;
+    
+}
