@@ -1,0 +1,38 @@
+* {
+    /* Resetar as configurações padrões do navegador */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 300px;
+    background: salmon;
+    /* padding: 24px 23px 22px 21px; ordem (sentido horário começando pelo top: top, right, bottom, left*/
+    padding: 24px 45px;
+    border-radius: 22px;
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 32px;
+}
+
+p {
+    background-color: seagreen;
+    margin-bottom: 50px;
+}
+
+a {
+    background-color: red;
+    margin-top: 24px;
+}
+
+button {
+    border: 5px dashed green;
+    border-radius: 32px;
+}

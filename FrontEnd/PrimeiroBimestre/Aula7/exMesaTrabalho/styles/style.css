@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-image {
+    background-image: url("https://i.joecomp.com/img/wallpapers/540/10-spectacular-justice-league-desktop-wallpapers-hd-4k_4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1200px;
+}
+
+.color-background-image {
+    color: rgb(255, 255, 255);
+}
+
+.title-text {
+    text-align: center;
+    padding: 24px;
+    padding-bottom: 5px;
+}
+
+.title-line-config {
+    text-align: center; 
+}
+
+.buttons-menu {
+    text-align: center;
+    position: relative;
+    top: 42%;
+}
+
+.flash-button-align {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.wonderWoman-button-align {
+    margin-left: 90px;
+    cursor: pointer;    
+}
+
+.superMan-button-align {
+    margin-left: 96px;
+    cursor: pointer;
+}
+
+.batman-button-align {
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.greenLantern-button-align {
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.aquaman-button-align {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.trailer-button-align {
+    position: relative;
+    margin-top: 38%;
+    margin-left: 42.5%;
+    cursor: pointer;
+}
+
+
+button {
+    border: 6px solid rgb(129, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(129, 0, 0);
+    padding: 3px 20px;
+    border-radius: 32px;
+    
+    
+}
