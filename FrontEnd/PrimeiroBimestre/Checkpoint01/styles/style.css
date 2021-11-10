@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+/* IMAGEM DE FUNDO */
+
 .background-image {
     background-image: url("https://catracalivre.com.br/wp-content/thumbnails/ts5DkzWr-nsoSiliY_uzAnarmQk=/wp-content/uploads/2020/03/wsfurlan2-910x607.jpg");
     background-repeat: no-repeat;
@@ -16,36 +18,75 @@
     background-attachment: fixed;
 }
 
+/* TITULO */
+
 .title {
     background-color: rgba(112, 128, 144, 0.692);
     padding: 15px;
     color: rgb(0, 63, 99);
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
+    font-size: 48px;
 }
 
+/* SUBTITULO */
+
 .subtitle {
-    background-color: rgba(112, 128, 144, 0.322);
+    background-color: rgba(112, 128, 144, 0.568);
+    margin-top: 10px;
     padding: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 63, 99);
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
+    font-size: 48px;
 }
+
+/* TEXTOS */
 
 .text {
     font-family: 'Roboto' sans-serif;
-    color: lightcyan;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.text-2  {
+    background-color: rgba(112, 128, 144, 0.568);
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 20px;
+
 }
 
+span {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 63, 99);
+}
+
+/* VIDEO */
+
 iframe {
-    width: 800px;
-    height: 450px;
+    width: 700px;
+    height: 400px;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 2%;
+    padding-bottom: 30px;
+}
+
+/* ICONES */
+
+.social-icons {
+    width: 70px;
+    height: 70px;    
+    margin: 20px 15px;
+}
+
+footer {
+    text-align: center;
 }
