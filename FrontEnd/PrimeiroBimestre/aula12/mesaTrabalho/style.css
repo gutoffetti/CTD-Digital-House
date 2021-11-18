@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #4B778D;
+}
+
+main {
+    max-width: 600px;
+}
+
+main h1 {
+    text-align: center;
+    color: #8FD9A8;
+}
+
+form {
+    margin: 20px 0 20px 0;
+    padding: 40px;
+    border-style: solid;
+    border-radius: 32px;
+    border-width: 10px;
+    border-color: #8FD9A8;
+}
+
+form legend {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+.introduction::first-line {
+    color: #D2E69C;
+}
+
+legend {
+    font-size: 22px;
+}
+
+legend::first-letter {
+    color: #D2E69C;
+}
+
+label {
+    font-size: 18px;
+}
+
+.custom-input-name {
+    padding: 4px;
+    border-radius: 12px;
+    background-color: #28B5B5;
+}
+
+.custom-input-name:hover {
+    width: 300px;
+    border: none;
+
+}
+
+input:enabled {
+    color: #D2E69C;
+}
+
+.custom-description {
+    padding: 4px;
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    background-color: #28B5B5;
+}
+
+.custom-description:active {
+    color: #D2E69C;
+}
+
+.custom-checkbox {
+    cursor: pointer;
+}
+
+.custom-checkbox:disabled
+
+.custom-checkbox:enabled {
+    margin: 0 0 0 35px;
+}
+
+.custom-checkbox:checked {
+    width: 25px;
+    height: 25px;
+}
+
+.custom-checkbox label:nth-child(3n) {
+    color: #D2E69C;
+}
+
+.custom-radio label {
+    cursor: pointer;
+}
+
+.custom-radio input[type="radio"] {
+    cursor: pointer;
+}
+
+input[type="radio"]:focus {
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    width: 15px;
+    height: 15px;
+}
+
+.custom-radio input[type="radio"]:checked::after {
+    content: ". Boa escolha!";
+    color: #D2E69C;
+}
+
+button {
+    background-color: #28B5B5;
+    border-radius: 32px;
+    padding: 10px;
+    margin: 40px 0 0 70px;
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: #8FD9A8;
+}

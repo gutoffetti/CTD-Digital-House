@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>Formulário do Vacilo do Ano</h1>
+        <p>
+        <h2 class="introduction">Você está concorrendo ao prêmio de vacilão do ano! A pessoa que tiver a história com o melhor vacilo irá levar para casa o troféu e um incrível prêmio. Então não perca tempo, preencha o formulário e conte para nós o seu maior vacilo!</h2>
+        </p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Nome do Vacilão</legend>
+
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite o seu nome" class="custom-input-name">
+                </div>
+
+                <legend>Conte sobre seu vacilo</legend>
+
+                <div>
+                    <label for="description">História do vacilo</label>
+                    <textarea name="description" id="description" cols="30" rows="50" placeholder="Conte aqui o seu vacilo" class="custom-description"></textarea>
+                </div>
+                <div class="custom-checkbox">
+                <legend>Quais estilos musicais você escolhe para a premiação?</legend >
+
+                    <input type="checkbox" name="firstOption" id="firstOption" class="custom-checkbox">
+                    <label for="firstOption">Rock</label>
+                    <input type="checkbox" name="secondOption" id="secondOption" class="custom-checkbox">
+                    <label for="secondOption">Pop</label>
+                    <input type="checkbox" name="thirdOption" id="thirdOption" class="custom-checkbox">
+                    <label for="thirdOption">Sertanejo</label>
+                    <input type="checkbox" name="fourthOption" id="fourthOption" class="custom-checkbox">
+                    <label for="fourthOption">MPB</label>
+                </div>
+
+                <legend>Escolha o seu prêmio</legend>
+
+                <div class="custom-radio">
+                    <label for="prize1">Prêmio 1</label>
+                    <input type="radio" name="prize" id="prize1">
+
+                    <label for="prize2">Prêmio 2</label>
+                    <input type="radio" name="prize" id="prize2" class="custom-radio">
+
+                    <label for="prize3">Prêmio 3</label>
+                    <input type="radio" name="prize" id="prize3" class="custom-radio">
+
+                </div>
+
+            </fieldset>
+
+            <button type="reset">Limpar Formulário</button>
+            <button type="submit">Enviar Candidatura</button>
+
+        </form>
+
+
+    </main>
+    
+</body>
+</html>
