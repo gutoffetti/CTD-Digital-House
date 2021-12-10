@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header ul {
+  margin-right: 40px;
+}
+
+header ul a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  line-height: 80px;
+}
+
+header a img {
+  width: 50px;
+  margin: 5px 32px 5px 20px;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0.8;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.modal-dialog {
+  width: 340px;
+}
+
+.modal-content {
+  height: 495px;
+  background-image: url("https://feijoadasimulator.top/br/templates/1240t.png");
+}
+
+.modal-content-magic {
+  height: 610px;
+  width: 420px;
+  background-image: url("/FrontEnd/PrimeiroBimestre/Checkpoint03/cartaMagica.jpeg");
+}
+
+.modal-title {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.modal-body {
+  margin-left: 30px;
+}
+
+.custom-input-name {
+  margin-bottom: 20px;
+  padding: 4px;
+  border-radius: 12px;
+  background-color: #b8a53a8a;
+}
+
+.custom-input-name :hover {
+  width: 300px;
+  border: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #b8a53a8a;
+  border-color: #b8a53a;
+  margin: 0 20px 36px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ac8825;
+  border-color: #b8a53a8a;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #b8a53a8a;
+  border-color: #b8a53a;
+  margin: 0 0 36px;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #ac8825;
+  border-color: #b8a53a8a;
+}
+
+.about-us {
+  margin: -5px 0 0 35px;
+  font-size: 26px;
+}
+
+.modal-title-magic {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.magic-card {
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 48px;
+}
+
+.about-magic-card {
+  margin: 0 0 60px 25px;
+  font-size: 21px;
+}
+
+.banner a img {
+  height: 800px;
+  width: 100%;
+  opacity: 0.8;
+  -webkit-filter: brightness(30%) contrast(110%);
+          filter: brightness(30%) contrast(110%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom: 8px solid #222;
+}
+
+.banner div {
+  position: absolute;
+  top: 140px;
+  left: 40px;
+}
+
+.banner div h1 {
+  margin-bottom: 100px;
+  color: #ffffff;
+  font-size: 86px;
+  letter-spacing: 2px;
+}
+
+.banner div h2 {
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.781);
+  font-size: 32px;
+}
+
+.banner button {
+  padding: 10px;
+  border-radius: 32px;
+  color: #ffffff;
+  background-color: rgba(129, 118, 54, 0.431);
+}
+
+.banner button :hover {
+  opacity: 1;
+}
+
+@media (min-width: 475px) {
+  .banner button {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

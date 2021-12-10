@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Home | Yugi Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
+            <a class="navbar-brand" data-toggle="modal" data-target="#modalMagicCard" href="#">
+                <img src="/FrontEnd/PrimeiroBimestre/Checkpoint03/cartaYughioh.jpeg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#introduction">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#cards">Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#modalSobre" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#modalLogin" href="#">Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="modal fade" id="modalMagicCard" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-content-magic">
+                <div class="modal-header">
+                <h5 class="modal-title modal-title-magic" id="exampleModalLabel">Armadilha do Clique</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body modal-body-sobre">
+                   <p>
+                       <h2  class="magic-card">A Curiosidade matou o gato.</h2>
+                   </p>
+                </div>
+                <div class="modal-footer">
+                    <h2 class="about-magic-card">Ao clicar na carta virada para baixo, você ativou a carta armadilha, agora lide com as consequências!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalSobre" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Yugi Page | Sobre Nós</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body modal-body-sobre">
+                   <p>
+                       <h2  class="about-us">Nós somos três estudantes de programação trabalahndo em conjunto para desenvolver o Checkpoint 3!</h2>
+                   </p>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login do Usuário</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <fieldset>
+                            <legend>Nome de Usuário:</legend>
+                            <div>
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" id="name" placeholder="Digite o seu nome" class="custom-input-name">
+                            </div>
+                            <legend>Senha:</legend>
+                            <div>
+                                <label for="password">Senha</label>
+                                <input type="password" name="password" id="password" placeholder="Digite a sua senha" class="custom-input-name">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="banner" id="introduction">
+            <a>
+            <img src="https://wallpapercave.com/wp/wp2279368.jpg" alt="">
+            </a>
+            <div>  
+                <p><h1>Yugi Page</h1></p>
+                <p>
+                    <span><h2>Você é novo no mundo de Card Game?</h2></span>
+                    <span><h2>Se sua resposta foi sim, você veio ao lugar certo!</h2></span>
+                </p>
+                <a href="#cards">
+                <button>Descubra mais aqui!</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <main id="cards">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <section class="row jinx">
+    
+                    <div class="col-6 col-md-4" >
+                        <img src="https://ms.yugipedia.com//thumb/2/28/CyberDragon-SDCS-EN-C-1E.png/300px-CyberDragon-SDCS-EN-C-1E.png" alt="">
+                        <h1>Cyber Dragon</h1>
+                        <h2>Deck Golpe Cibernético</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/5/5a/LimiterRemoval-SDCS-EN-C-1E.png/300px-LimiterRemoval-SDCS-EN-C-1E.png" alt="">
+                        <h1>Limiter Removal</h1>
+                        <h2>Deck Golpe Cibernético</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/d/d2/CyberEndDragon-SDCS-EN-UR-1E.png/300px-CyberEndDragon-SDCS-EN-UR-1E.png" alt="">
+                        <h1>Cyber End Dragon</h1>
+                        <h2>Deck Golpe Cibernético</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4" >
+                        <img src="https://ms.yugipedia.com//thumb/2/2b/ElementalHEROAvian-SDHS-EN-C-1E.png/300px-ElementalHEROAvian-SDHS-EN-C-1E.png" alt="">
+                        <h1>Elemental HERO Avian</h1>
+                        <h2>Deck Ataque do Herói</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/c/cd/ElementalHERONeos-MGED-EN-PGR-1E.png/300px-ElementalHERONeos-MGED-EN-PGR-1E.png" alt="">
+                        <h1>Elemental HERO Neos</h1>
+                        <h2>Deck Ataque do Herói</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/1/10/NeoSpacianGrandMole-BLRR-EN-UR-1E.png/300px-NeoSpacianGrandMole-BLRR-EN-UR-1E.png" alt="">
+                        <h1>Neo-Spacian Grand Mole</h1>
+                        <h2>Deck Ataque do Herói</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+            
+            
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="row jinx">
+    
+                    <div class="col-6 col-md-4" >
+                        <img src="https://ms.yugipedia.com//thumb/d/de/AAssaultCore-LCKC-EN-ScR-1E.png/300px-AAssaultCore-LCKC-EN-ScR-1E.png" alt="">
+                        <h1>A-Assault Core</h1>
+                        <h2>Deck Seto Kaiba</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/1/10/BBusterDrake-LCKC-EN-ScR-1E.png/300px-BBusterDrake-LCKC-EN-ScR-1E.png" alt="">
+                        <h1>B-Buster Drake</h1>
+                        <h2>Deck Seto Kaiba</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/a/a5/CCrushWyvern-LCKC-EN-ScR-1E.png/300px-CCrushWyvern-LCKC-EN-ScR-1E.png" alt="">
+                        <h1>C-Crush Wyvern</h1>
+                        <h2>Deck Seto Kaiba</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4" >
+                        <img src="https://ms.yugipedia.com//thumb/a/af/RavielLordofPhantasms-MP21-EN-PScR-1E.png/300px-RavielLordofPhantasms-MP21-EN-PScR-1E.png" alt="">
+                        <h1>Raviel, Lord of Phantasms</h1>
+                        <h2>Deck das Bestas Sagradas</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/8/8b/HamonLordofStrikingThunder-MP21-EN-PScR-1E.png/300px-HamonLordofStrikingThunder-MP21-EN-PScR-1E.png" alt="">
+                        <h1>Hamon, Lord of Striking Thunder</h1>
+                        <h2>Deck das Bestas Sagradas</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/e/e6/UriaLordofSearingFlames-MP21-EN-PScR-1E.png/300px-UriaLordofSearingFlames-MP21-EN-PScR-1E.png" alt="">
+                        <h1>Uria, Lord of Searing Flames</h1>
+                        <h2>Deck das Bestas Sagradas</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+            
+            
+                </section>
+                  
+                
+              </div>
+              <div class="carousel-item">
+                <section class="row jinx">
+    
+                    <div class="col-6 col-md-4" >
+                        <img src="https://yugipedia.com/thumb.php?f=DarkMagician-MGED-EN-PGR-1E.png&w=300" alt="">
+                        <h1>Dark Magician</h1>
+                        <h2>Deck Yugi</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://yugipedia.com/thumb.php?f=DarkMagicianGirl-YCPC-JP-C.png&w=300" alt="">
+                        <h1>Dark Magician Girl</h1>
+                        <h2>Deck Yugi</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/b/bd/Kuriboh-BROL-EN-UR-1E.png/300px-Kuriboh-BROL-EN-UR-1E.png" alt="">
+                        <h1>Kuriboh</h1>
+                        <h2>Deck Yugi</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4" >
+                        <img src="https://ms.yugipedia.com//thumb/6/66/BlueEyesWhiteDragon-MGED-EN-PGR-1E.png/300px-BlueEyesWhiteDragon-MGED-EN-PGR-1E.png" alt="">
+                        <h1>Blue-Eyes White Dragon</h1>
+                        <h2>Deck Dragão Branco de Olhos Azuis</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/9/94/ShiningAngel-SDCR-EN-C-1E.png/300px-ShiningAngel-SDCR-EN-C-1E.png" alt="">
+                        <h1>Shining Angel</h1>
+                        <h2>Deck Dragão Branco de Olhos Azuis</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+                    <div class="col-6 col-md-4">
+                        <img src="https://ms.yugipedia.com//thumb/d/db/AzureEyesSilverDragon-LCKC-EN-ScR-1E.png/300px-AzureEyesSilverDragon-LCKC-EN-ScR-1E.png" alt="">
+                        <h1>Azure-Eyes Silver Dragon</h1>
+                        <h2>Deck Dragão Branco de Olhos Azuis</h2>
+                        <button>Abrir</button>
+            
+                    </div>
+            
+            
+            
+                </section>
+                
+              </div>
+            </div>
+
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+</body>
+</html>
