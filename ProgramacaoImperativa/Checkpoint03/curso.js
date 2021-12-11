@@ -31,8 +31,7 @@ let curso = {
     }
 };
 
-curso.addAluno("Marcos", 0, [10, 10, 10, 10]);
-console.log(curso);
+
 // console.log(curso.estudantes["Gustavo"]);
 // console.log(curso.aprovado("Jonas"));
 // console.log(Object.values(curso.estudantes));
@@ -41,3 +40,6 @@ console.log(curso);
 
 // let estudantesArray = Object.keys(estudantes);
 // console.log(estudantesArray);
+
+// curso.addAluno("Marcos", 0, [10, 10, 10, 10]);
+// console.log(curso);
