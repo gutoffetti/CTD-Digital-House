@@ -9,7 +9,8 @@ let curso = {
     estudantes: estudantes,
     addAluno: function(nome, qtdFaltas, notas) {
         let novoAluno = new Aluno(nome, qtdFaltas, notas);
-        this.estudantes = novoAluno;
+        const novosAlunos = {...estudantes, ...novoAluno};
+        console.log(novosAlunos);
     },
     aprovado: function(nome) {
         let aluno = this.estudantes[nome]
@@ -31,7 +32,7 @@ let curso = {
     }
 };
 
-
+// curso.addAluno("Marcos", 0, [10, 10, 10, 10]);
 // console.log(curso.estudantes["Gustavo"]);
 // console.log(curso.aprovado("Jonas"));
 // console.log(Object.values(curso.estudantes));
@@ -41,5 +42,5 @@ let curso = {
 // let estudantesArray = Object.keys(estudantes);
 // console.log(estudantesArray);
 
-// curso.addAluno("Marcos", 0, [10, 10, 10, 10]);
+
 // console.log(curso);
